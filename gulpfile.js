@@ -11,7 +11,7 @@ var WebpackDevServer = require('webpack-dev-server');
 var webpackConfig = 
 {
     entry: {
-      preload: path.join(__dirname, "target", "main.js"), // './target/main.js'
+      preload: path.join(__dirname, "source", "main.js"), // './target/main.js'
     },
     devtool: "source-map",
     output: {

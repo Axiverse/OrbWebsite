@@ -1,7 +1,25 @@
-<html>
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="Three.js" type="text/javascript"></script>
+    <script src="Three.TrackballControls.js" type="text/javascript"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
 <body>
-	<p id="content"></p>
-	<p><button id="loadCat">Lazy load <b>Cat</b></button></p>
-	<script src="../dist/preload.bundle.js"></script>
+    <footer>
+        <div id="play">
+            <i class="fa fa-pause fa-3x"></i>
+        </div>
+        <a id="faster">Faster</a>
+        <a id="slower">Slower</a>
+        <span id="datetime"></span>
+    </footer>
+
+	<script src="../build/preload.orb.js"></script>
 </body>
 </html>
